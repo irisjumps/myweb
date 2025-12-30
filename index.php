@@ -33,7 +33,7 @@ if ($id) {
 } else {
     // Danh sách thành phố
     $stmt = $pdo->query("
-        SELECT ID, Name, CountryCode, Population 
+        SELECT ID, Name, CountryCode, District, Population
         FROM city 
         ORDER BY Population DESC
     ");
