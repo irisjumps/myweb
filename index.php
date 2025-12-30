@@ -1,5 +1,5 @@
 <?php
-$host = "rds-primary.cwhwvbizzssn.us-east-1.rds.amazonaws.com";
+$host = "rds-replica.cwhwvbizzssn.us-east-1.rds.amazonaws.com";
 $db   = "myDB";
 $user = "admin";
 $pass = "12345678";
